@@ -45,7 +45,7 @@ body{
 
 /* flexbox lyouts starts here  */
 
-.first-row-content{
+.row{
     display: flex;
     gap: 30px;
     color: black;
@@ -58,15 +58,15 @@ body{
     color: rosybrown;
 }
 
-.second-row-content{
+/* .second-row-content{
     display: flex;
     gap: 30px;
     color: rgb(255, 255, 255);
-    /* border: 2px solid rgb(255, 255, 255); */
+    border: 2px solid rgb(255, 255, 255);
     text-align: center;
     padding: 2rem 0;
    
-}
+} */
 
 .content-bg{
     background-color: #0a6272;
