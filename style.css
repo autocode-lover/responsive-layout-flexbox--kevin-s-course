@@ -1,72 +1,75 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-.hero-bg{
-    background-color: #23424a;
+.hero-bg {
+  background-color: #23424a;
 }
 
-.width-container{
-    width: 80%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 4rem 0;
-    border: 2px solid rgb(0, 0, 0);
-    /* background-color: rgba(45, 182, 182, 0.349); */
+.width-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding:  0;
+  border: 2px solid rgb(0, 0, 0);
+  /* background-color: rgba(45, 182, 182, 0.349); */
 }
 
-
-
-.hero-content{
-    width: 65%;
-    color: white
-
+.hero-content {
+  width: 65%;
+  color: white;
+  border: 2px solid white;
 }
 
-.content p{
-    
-    font-size: .8rem;
+.hero-row{
+    display: flex;
+}
+.hero-img{
+    align-self:flex-start;
+    width: 35%;
+    border: 2px solid rgb(255, 0, 0);
 }
 
-.btn{
-    padding: 12px 24px;
-    margin-top: 2rem;
-    color: #23424a;
-    background-color: #38cfd9;
-    border-radius: 30px;
-    font-size:.8rem;
-    font-weight: bolder;
-    border-width: 0px;
+.content p {
+  font-size: 0.8rem;
 }
 
-
-
-.first-row-content{
-    color: rgb(0, 0, 0);
+.btn {
+  padding: 12px 24px;
+  margin-top: 2rem;
+  color: #23424a;
+  background-color: #38cfd9;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  border-width: 0px;
 }
 
-.first-row-content h2{
-    color: palevioletred;
+.first-row-content {
+  color: rgb(0, 0, 0);
+}
+
+.first-row-content h2 {
+  color: palevioletred;
 }
 .second-row-content {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
-.content-bg{
-    background-color: #0a6272;
+.content-bg {
+  background-color: #0a6272;
 }
 
-/* flexbox lyouts starts here  */
+/* flexbox layouts starts here  */
 
-.row{
-    display: flex;
-    gap: 30px;
-    
-    /* border: 2px solid black; */
-    text-align: center;
-    padding: 2rem 0;
+.row {
+  display: flex;
+  gap: 30px;
+
+  /* border: 2px solid black; */
+  text-align: center;
+  padding: 2rem 0;
 }
