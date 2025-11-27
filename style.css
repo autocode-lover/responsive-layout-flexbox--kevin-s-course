@@ -11,7 +11,6 @@ body{
 }
 
 .width-container{
-    color: white;
     width: 80%;
     max-width: 900px;
     margin: 0 auto;
@@ -24,6 +23,7 @@ body{
 
 .hero-content{
     width: 65%;
+    color: white
 
 }
 
@@ -43,31 +43,30 @@ body{
     border-width: 0px;
 }
 
+
+
+.first-row-content{
+    color: rgb(0, 0, 0);
+}
+
+.first-row-content h2{
+    color: palevioletred;
+}
+.second-row-content {
+    color: rgb(255, 255, 255);
+}
+
+.content-bg{
+    background-color: #0a6272;
+}
+
 /* flexbox lyouts starts here  */
 
 .row{
     display: flex;
     gap: 30px;
-    color: black;
+    
     /* border: 2px solid black; */
     text-align: center;
     padding: 2rem 0;
-}
-
-.first-row-content h2{
-    color: rosybrown;
-}
-
-/* .second-row-content{
-    display: flex;
-    gap: 30px;
-    color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
-    text-align: center;
-    padding: 2rem 0;
-   
-} */
-
-.content-bg{
-    background-color: #0a6272;
 }
